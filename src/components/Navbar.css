@@ -1,0 +1,32 @@
+/* 导入bootstrap的样式表 */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* 设置导航栏的高度 */
+.navbar {
+  height: 1.2cm;
+}
+
+/* 设置导航链接的字体大小 */
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* 设置按钮的字体大小 */
+.btn {
+  font-size: 0.8rem;
+}
+
+/* 设置导航链接在鼠标悬停时的背景色 */
+.nav-link:hover {
+  background-color: #f0f0f0;
+}
+
+/* 设置按钮在鼠标悬停时的背景色 */
+.btn:hover {
+  background-color: #28a745;
+}
+
+/* 设置左边留下一些空间 */
+.me-auto {
+  margin-left: 120px;
+}
