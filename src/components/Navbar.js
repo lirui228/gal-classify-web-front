@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const MyNavbar = () => {
   return (
-    <Navbar bg="dark" variant="dark" fixed="top" style={{ height: "2.4cm" }}>
+    <Navbar bg="dark" variant="dark" fixed="top">
       <Navbar.Brand href="/">GaLaxy</Navbar.Brand>
       <Nav className="me-auto">
         <Nav.Link href="/">主页</Nav.Link>
